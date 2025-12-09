@@ -122,8 +122,8 @@ def focus_lighthouse_window():
 
 ### Clone the Repo
 ```bash
-git clone [https://github.com/ShubhrajyotiPoddar/automatrix-ETL.git](https://github.com/ShubhrajyotiPoddar/automatrix-ETL.git)
-cd automatrix-ETL
+git clone [https://github.com/ShubhrajyotiPoddar/scm-data-bridge.git](https://github.com/ShubhrajyotiPoddar/scm-data-bridge.git)
+cd scm-data-bridge
 ```
 
 ### Install Dependencies
