@@ -1,0 +1,21 @@
+# Data Processing & ETL
+pandas
+numpy
+python-dateutil
+chardet
+
+# Database Connectivity
+# Use binary for easier installation on demo machines
+psycopg2-binary
+
+# GUI Automation & Screen Interaction
+PyAutoGUI
+pywinauto
+PyGetWindow
+pyperclip
+
+# Image Processing (For screenshot handling)
+Pillow
+
+# Note: 'python-dotenv' has been removed as credentials 
+# are sanitized/redacted for this public repository.
