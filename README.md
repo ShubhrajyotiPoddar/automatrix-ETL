@@ -1,4 +1,4 @@
-# Automatrix: End-to-End Supply Chain ETL Automation
+# SCM-Data-Bridge: End-to-End Supply Chain Automation
 
 ![Python](https://img.shields.io/badge/Python-3.9-blue?style=for-the-badge&logo=python&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-17-336791?style=for-the-badge&logo=postgresql&logoColor=white)
@@ -7,7 +7,7 @@
 
 ## 📖 Executive Summary
 
-**Automatrix** is a full-stack data engineering solution designed to bridge the gap between legacy ERP systems and modern Business Intelligence.
+**SCM-Data-Bridge** is a full-stack data engineering solution developed at **Automatrix Innovation** to bridge the gap between legacy ERP systems and modern Business Intelligence.
 
 Many manufacturing sectors still rely on legacy desktop ERPs (like Lighthouse ERP) that lack API connectivity. This project automates the manual extraction of daily data using **RPA (Robotic Process Automation)**, processes it via Python to handle duplicates and updates (SCD Type 1), and loads it into an on-premise PostgreSQL warehouse. The final output is a Power BI Fabric dashboard used for daily procurement and inventory decision-making.
 
