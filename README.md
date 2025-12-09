@@ -1,4 +1,4 @@
-# AutoMatrix: End-to-End Supply Chain ETL Automation
+# Automatrix: End-to-End Supply Chain ETL Automation
 
 ![Python](https://img.shields.io/badge/Python-3.9-blue?style=for-the-badge&logo=python&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-17-336791?style=for-the-badge&logo=postgresql&logoColor=white)
@@ -7,7 +7,7 @@
 
 ## 📖 Executive Summary
 
-**AutoMatrix** is a full-stack data engineering solution designed to bridge the gap between legacy ERP systems and modern Business Intelligence.
+**Automatrix** is a full-stack data engineering solution designed to bridge the gap between legacy ERP systems and modern Business Intelligence.
 
 Many manufacturing sectors still rely on legacy desktop ERPs (like Lighthouse ERP) that lack API connectivity. This project automates the manual extraction of daily data using **RPA (Robotic Process Automation)**, processes it via Python to handle duplicates and updates (SCD Type 1), and loads it into an on-premise PostgreSQL warehouse. The final output is a Power BI Fabric dashboard used for daily procurement and inventory decision-making.
 
@@ -62,9 +62,16 @@ The data feeds into a multi-page Power BI report. Below are the results generate
 *Tabular view used for auditing specific transaction IDs against the ERP.*
 </details>
 
-### 📄 Automated PDF Report
-This system also generates a stakeholder-ready PDF report automatically.
-[**Download Sample Daily Report (PDF)**](reports/Daily_Supply_Chain_Report_Sample.pdf)
+---
+
+## 📂 Project Artifacts
+You can access the source files and generated reports here:
+
+| File Type | Location | Description |
+| :--- | :--- | :--- |
+| **Power BI File** | [`dashboards/Supply_Chain_Analysis.pbix`](dashboards/) | The raw source file containing the DAX measures and data model. |
+| **Sample Report** | [`reports/Executive_Supply_Chain_Report.docx`](reports/) | An automated Word document generated daily for stakeholders. |
+| **SQL Schema** | [`sql/init_schema.sql`](sql/init_schema.sql) | The PostgreSQL table definitions and View logic. |
 
 ---
 
@@ -115,8 +122,8 @@ def focus_lighthouse_window():
 
 ### Clone the Repo
 ```bash
-git clone [https://github.com/yourusername/automatrix-etl.git](https://github.com/yourusername/automatrix-etl.git)
-cd automatrix-etl
+git clone [https://github.com/ShubhrajyotiPoddar/automatrix-ETL.git](https://github.com/ShubhrajyotiPoddar/automatrix-ETL.git)
+cd automatrix-ETL
 ```
 
 ### Install Dependencies
